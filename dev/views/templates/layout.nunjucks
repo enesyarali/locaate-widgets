@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}{% endblock %} | Locaate</title>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta property="og:title" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/swiper.min.css">  
+  <link rel="stylesheet" href="assets/css/main.min.css">  
+
+</head>
+<body>
+
+  {% include "../parts/layouts/header.nunjucks" %}
+
+  {% block content %}
+
+  {% endblock %}
+
+  {% include "../parts/layouts/footer.nunjucks" %}
+
+  
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+  <script src="assets/js/main.min.js"></script>
+</body>
+</html>
